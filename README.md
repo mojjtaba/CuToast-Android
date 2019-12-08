@@ -33,7 +33,7 @@ Add this to your module's build.gradle file (make sure the version matches the J
 ```gradle
 dependencies {
 	...
-	############################################################
+	implementation 'com.github.mojjtaba:CuToast-Android:0.2.0'
 }
 ```
 Usage
@@ -43,6 +43,10 @@ A simple example to use this library:
 CuToast.showSuccess(this,"message text");
 CuToast.showError(this,"message text");
 CuToast.showWarning(this,"message text");
+
+CuToast.showCustom(this,"title text","message text",Toast.LENGTH_SHORT
+,getResources().getColor(R.color.red)
+,R.drawable.icon);
 ```
 
 
@@ -96,6 +100,52 @@ CuToast.showCustom(this,"title text"
 |   CuToast.showCustom(     |  Activity         |  Title             | Message           |  Duration                                          | color              |  res(icon)         |  )  |
 | ------------------------- | ----------------- | ------------------ | ----------------- | -------------------------------------------------- | ------------------ | ------------------ | --- |
 | ************************* |  required-Context |  Optional-String   | required-String   |  Optional-Toast.LENGTH_SHORT or Toast.LENGTH_LONG  | required-res color |  Optional-int res  | *** |
+
+General settings
+------
+Sound
+You can use the following command to enable or disable toast sound:
+```java
+CuToast.sound= true ;//or false
+```
+
+Dark Mode
+Use the following command to enable or disable dark mode:
+
+```java
+CuToast.darkMode= true ;//or false
+```
+
+rtl
+If your language is right-to-left, use the following command (Farsi and Arabic):
+
+```java
+CuToast.rtl= true ;//or false
+```
+
+title size
+The following command can be used to change the font size of the title: The default value is 16 sp:
+
+```java
+CuToast.titleSize= 18 ;//16 default
+```
+
+message size
+The following command can be used to change the font size of the message: The default value is 14 sp:
+
+```java
+CuToast.messageSize= 16 ;//14 default
+```
+
+
+
+image scayle
+To change your Icon Scale you need to use the following command:
+
+```java
+CuToast.scaleType = ImageView.ScaleType.CENTER ;
+```
+
 
 
 
