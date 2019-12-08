@@ -3,7 +3,7 @@ CuToast
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 
 
-<p align="center"><img src="https://b2n.ir/247124"></p>
+<p align="center"><img src="http://gapgame.ir/CuToast/CuToast1.png"></p>
 
 <p align="center"><img src="https://b2n.ir/024263"></p>
 You can watch the demo from
