@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="An example of a CuToast"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+        <Button
+            android:id="@+id/success"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="#4CAF50"
+            android:text="success"/>
+        <Button
+            android:id="@+id/warning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#AD9B00"
+            android:textSize="12sp"
+            android:text="warning"/>
+        <Button
+            android:id="@+id/error"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textColor="#F44336"
+            android:text="error"/>
+        <Button
+            android:id="@+id/dark"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:tag="off"
+            android:text="Light Mode"/>
+        <Button
+            android:id="@+id/sound"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:tag="on"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:text="sound on"/>
+    </LinearLayout>
+
+</LinearLayout>

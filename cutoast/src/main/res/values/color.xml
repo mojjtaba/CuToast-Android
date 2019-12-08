@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#3F51B5</color>
+    <color name="white">#fff</color>
+    <color name="white_gray">#E0E0E0</color>
+    <color name="dark">#000</color>
+    <color name="shadow_yellow">#FFEB3B</color>
+    <color name="shadow_green">#9C1AB920</color>
+    <color name="shadow_red">#F44336</color>
+    <color name="shadow_light">#D7F7F7FF</color>
+    <color name="shadow_dark">#C3000000</color>
+    <color name="gray">#3C3C3C</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
