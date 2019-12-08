@@ -7,7 +7,7 @@ CuToast
 
 <p align="center"><img src="https://b2n.ir/024263"></p>
 You can watch the demo from
-[YouTube](https://github.com/square/picasso)
+https://youtu.be/9TRhFnyWilU
 
 Custom Toast Library for Android
 ----
