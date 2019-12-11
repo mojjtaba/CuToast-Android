@@ -149,10 +149,3 @@ CuToast.scaleType = ImageView.ScaleType.CENTER ;
 
 
 
-:heart: Donations
-------
-
-
-This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated  . Thank you!
-
-If you like the project you can support us by purchasing a PlayStation Store Gift Card [Digital Code] (3$ to 100$) and emailing us mojapk74@gmail.com.
